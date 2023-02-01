@@ -1,0 +1,126 @@
+.Main{
+    width: 89%;
+    height: 100%;
+    margin-left: 100px;
+    margin-top: 73px;
+    display: grid;
+    grid-template-rows: 1fr 2fr 1fr 170px;
+    align-content: space-evenly;
+}
+.Personal{
+    font-weight: 900;
+    font-size: 27px;
+    letter-spacing: 1px;
+    color: #022959;
+}
+.Please{
+    color: #bdbfc9;
+}
+.planSmallDiv{
+    width: 80%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-gap: 20px;
+}
+.smallDiv{
+    width: 88%;
+    height: 100%;
+    border-radius: 20px;
+    border: 1.5px solid #bdbfc9;
+    padding-left: 13%;
+}
+.NextstepContainer{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 3fr 300px;
+    align-items: center;
+}
+.Nextstep{
+    width: 60%;
+    height: 36%;
+    display: flex;
+    background-color: #022959;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.advantage
+{
+    margin: 16px 0px 37px 0px;
+    width: 65px;
+    height: 66px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../../../public/assets/images/icon-advanced.svg');
+}
+.arcade
+{
+    margin: 16px 0px 37px 0px;
+    width: 65px;
+    height: 66px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../../../public/assets/images/icon-arcade.svg');
+}
+.pro
+{
+    margin: 16px 0px 37px 0px;
+    width: 65px;
+    height: 66px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../../../public/assets/images/icon-pro.svg');
+}
+.monthlyyearly{
+    width: 88%;
+    height: 80%;
+    margin-top: 5%;
+    background-color: #f8f9ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.container 
+{
+    margin: 21px 18px 0px 18px;
+    height: 40px;
+} 
+.switch input {
+    position: absolute;
+    opacity: 0;
+}
+.switch {
+    display: inline-block;
+    font-size: 20px; 
+    height: 1em;
+    width: 2em;
+    background: #022959;
+    border-radius: 1em;
+  }
+  .switch div {
+    height: 1em;
+    width: 1em;
+    border-radius: 1em;
+    background: #FFF;
+    box-shadow: 0 0.1em 0.3em rgba(0,0,0,0.3);
+    -webkit-transition: all 300ms;
+       -moz-transition: all 300ms;
+            transition: all 300ms;
+  }
+  .switch input:checked + div {
+    -webkit-transform: translate3d(100%, 0, 0);
+       -moz-transform: translate3d(100%, 0, 0);
+            transform: translate3d(100%, 0, 0);
+  }
+  .cardinputelement {
+    display: none;
+}
+.cardinputelement:checked + .smallDiv {
+    border: 1px solid #483eff;
+}
+.smallDiv:hover {
+    border: 1px solid #483eff;
+}

@@ -1,0 +1,89 @@
+.Main{
+    width: 85%;
+    height: 79%;
+    margin-left: 100px;
+    margin-top: 73px;
+    display: grid;
+    grid-template-rows: 117px 375px 158px;
+    align-content: stretch;
+}
+.Personal{
+    font-weight: 900;
+    font-size: 27px;
+    letter-spacing: 1px;
+    color: #022959;
+}
+.Please{
+    color: #bdbfc9;
+}
+.planSmallDiv{
+    width: 80%;
+    height: 100%;
+    display: grid; 
+    grid-template-rows: repeat(2,1fr);
+    grid-gap: 20px;
+    
+}
+.smallDiv{
+    width: 88%;
+    height: 100%;
+    border-radius: 20px;
+    border: 1.5px solid #bdbfc9;
+    padding-left: 13%;
+}
+.NextstepContainer{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 3fr 300px;
+    align-items: center;
+}
+.Nextstep{
+    width: 60%;
+    height: 36%;
+    display: flex;
+    background-color:#483eff;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.insideDiv{
+    display: grid;
+    grid-template-rows: 1fr 2fr;
+    background-color: #f8f9ff;
+    padding: 10px 10px 0px 10px;
+    border-radius: 10px;
+}
+.change{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   
+}
+.online{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    /* justify-content: space-between; */
+}
+.total{
+    display: flex;
+    justify-content: space-between;
+}
+.para1{
+    width: 100%;
+    color: #405d82;
+    display: flex;
+    justify-content: flex-end;
+}
+.totalruppe{
+    color: #483eff;
+    font-size: 20px;
+    font-weight: 700;
+}
+.changeText:hover{
+    color: #483eff;
+}
+.flexclass{
+    display: flex;
+}

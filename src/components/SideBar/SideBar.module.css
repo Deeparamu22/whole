@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=Roboto+Slab&family=Space+Mono&family=Ubuntu:wght@500&display=swap');
+.sideClass{
+    width: 97%;
+    height: 97%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 13px;
+    margin-top: 10px;
+    background-image: url('../../../public/assets/images/bg-sidebar-desktop.svg');
+}
+.contentclass{
+    margin-top: 5%;
+    margin-left: 10%;
+    width: 90%;
+    height: 60%;
+    display: grid;
+    grid-template-rows: repeat(4,1fr);
+    align-items: center;
+    border-radius: 12px;
+    justify-content: start;
+    font-family: 'Ubuntu', sans-serif;
+}
+.innercontent{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-columns: 100px 1fr;
+    align-items: center;
+    color: white;
+    justify-items: center;
+}
+.textNumber{
+    width: 44%;
+    height: 43%;
+    display: flex;
+    align-items: center;
+    border: 2px solid white;
+    justify-content: center;
+    border-radius: 50%;
+}
+.textcontent{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.step{
+    color: #9eacff;
+}
+.belowstep{
+    font-size: 18px;
+    height: -32px;
+    margin-top: -10px;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.fillcolor{
+    background-color: #bee2fd;
+    color: rgb(43, 43, 138);
+    border: none;
+}

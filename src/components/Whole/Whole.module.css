@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans&family=Roboto+Slab&family=Space+Mono&family=Ubuntu:wght@500&display=swap');
+.whole{
+    width: 81%;
+    height: 82%;
+    transform: translate(12%, 11%);
+    display: grid;
+    grid-template-columns: 348px 2fr;
+    border-radius: 20px;
+    background-color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+.NextstepContainer{
+    height: 100%;
+    width: 90%;
+    margin-left: 12%;
+    display: grid;
+    grid-template-columns: 3fr 300px;
+    align-items: center;
+}
+.Nextstep{
+    grid-column-start: 2;
+    width: 60%;
+    height: 36%;
+    display: flex;
+    background-color: #022959;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.main{
+    width: 100%;
+    height: 100%;
+    display: grid;
+    grid-template-rows: 553px 143px;
+}
+.Please{
+    color: #bdbfc9;
+}
+.nextstep{
+    background-color: blue;
+}

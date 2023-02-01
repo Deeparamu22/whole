@@ -1,0 +1,93 @@
+.Main{
+    width: 89%;
+    height: 100%;
+    margin-left: 100px;
+    margin-top: 73px;
+    display: grid;
+    grid-template-rows: 1fr 110px 110px  110px 110px;
+    align-content: space-evenly;
+    grid-gap:20px
+}
+.Personal{
+    font-weight: 900;
+    font-size: 27px;
+    letter-spacing: 1px;
+    color: #022959;
+}
+.Please{
+    color: #bdbfc9;
+}
+.planSmallDiv{
+    width: 75%;
+    height: 100%;
+    border-radius: 10px;
+    border: 1.5px solid #bdbfc9;
+    padding:0px 10px 0px 20px;
+    display: grid;
+    grid-template-columns: 50px 2fr 1fr;
+    align-items: center;
+}
+.NextstepContainer{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 3fr 300px;
+    align-items: center;
+}
+.Nextstep{
+    width: 60%;
+    height: 46%;
+    display: flex;
+    background-color: #022959;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.advantage
+{
+    margin: 16px 0px 37px 0px;
+    width: 65px;
+    height: 66px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../../../public/assets/images/icon-advanced.svg');
+}
+.arcade
+{
+    margin: 16px 0px 37px 0px;
+    width: 65px;
+    height: 66px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../../../public/assets/images/icon-arcade.svg');
+}
+.pro
+{
+    margin: 16px 0px 37px 0px;
+    width: 65px;
+    height: 66px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url('../../../public/assets/images/icon-pro.svg');
+}
+.monthlyyearly{
+    width: 88%;
+    height: 80%;
+    margin-top: 5%;
+    background-color: #f8f9ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input[type=checkbox] {
+    accent-color:#483eff;
+    width: 20px;
+    height: 20px;
+  }
+.rupee{
+    color: #483eff;
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 10px;
+  }

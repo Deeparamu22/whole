@@ -1,0 +1,56 @@
+.Main{
+    width: 89%;
+    height:110%;
+    margin-left: 100px;
+    margin-top: 73px;
+    display: grid;
+    grid-template-rows: repeat(5,1fr);
+    align-content: space-evenly;
+}
+.Personal{
+    font-weight: 900;
+    font-size: 27px;
+    letter-spacing: 1px;
+    color: #022959;
+}
+.Please{
+    color: #bdbfc9;
+}
+.NextstepContainer{
+    height: 100%;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 3fr 300px;
+    
+}
+.Nextstep{
+    grid-column-start: 2;
+    width: 60%;
+    height: 46%;
+    display: flex;
+    background-color: #022959;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+.input{
+    width: 550px;
+    height: 42px;
+    padding: 6px;
+    border-radius: 10px;
+}
+input[type="text"]:focus ,[type="email"]:focus 
+{
+    outline: none;
+    border: 2px solid blue;
+}
+.inputText{
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.alert{
+    display: none;
+    color: red;
+}

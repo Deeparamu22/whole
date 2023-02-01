@@ -1,0 +1,34 @@
+.Main{
+    width: 85%;
+    height: 79%;
+    margin-left: 100px;
+    margin-top: 73px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.thankyouimage{
+    width: 100px;
+    height: 100px;
+    background-image: url("../../../public/assets/images/icon-thank-you.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.Personal{
+    font-weight: 900;
+    font-size: 27px;
+    letter-spacing: 1px;
+    color: #022959;
+}
+.Please{
+    width: 100%;
+    color: #bdbfc9;
+    text-align: center;
+    font-weight: 100;
+    line-height: 25px;
+    letter-spacing: 0.3px;
+}
+
+
+
